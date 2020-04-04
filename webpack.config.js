@@ -6,7 +6,7 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = (env, argv) => {
     const { mode } = argv;
-    const proxyUrl = "http://ymcavirtual.local/";
+    const proxyUrl = "http://example.com/";
 
     const styleRule = styleConfig(mode);
     return {
